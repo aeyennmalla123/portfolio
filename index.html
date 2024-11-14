@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MERN Stack Developer Portfolio">
+    <title>Adil Nazir - MERN Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <img src ="/pp.jpeg"" alt="Profile Picture" class="profile-img">
+            <h1>Adil Nazir Malla</h1>
+            <p>MERN Stack Developer</p>
+            <br>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a detail-oriented MERN Stack Developer with hands-on experience in building and maintaining dynamic web applications. Proficient in HTML, CSS, JavaScript, and the MERN stack (MongoDB, Express.js, React, Node.js). Passionate about developing user-centric solutions, optimizing web performance, and collaborating with teams to deliver high-quality products.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol id="project-container"></ol> <!-- Projects in ordered list -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+            <li>Bootstrap, Tailwind CSS</li>
+            <li>Version Control : Git.</li>
+            <li>Problem Solving, Data Structures, Algorithms</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="form-feedback"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adil Nazir | MERN Stack Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
